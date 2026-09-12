@@ -1,0 +1,27 @@
+{
+  "name": "k6-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script-stages.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azaan1134/k6-lab2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/azaan1134/k6-lab2/issues"
+  },
+  "homepage": "https://github.com/azaan1134/k6-lab2#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
