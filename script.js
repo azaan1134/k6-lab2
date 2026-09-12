@@ -4,9 +4,9 @@ import { sleep, check } from 'k6';
 export const options = {
   vus: 30,
   duration: "1m",
-  // baseline p95 = 2.43s * 1.5 = 3.645s босго утгаар авна
+  // baseline p95 < 50 болгож тестийг туршина.
   thresholds: {
-    http_req_duration: ['p(95)<3650'],
+    http_req_duration: ['p(95)<50'],
     http_req_failed:   ['rate<0.01'],
   },
 };
