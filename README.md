@@ -39,7 +39,7 @@ k6.exe v2.2.0 (commit/00a9a1b7f5, go1.26.5, windows/amd64)
 - `docs/run_5vu.png`, `results/run-05vu.txt`
 - `docs/run_30vu.png`, `results/run-30vu.txt`
 - `docs/run_100vu.png`, `results/run-100vu.txt`
-- `docs/run_stages.png` — stages ашигласан үр дүн
+- `docs/run_stages.png`,`results/run_stages.txt` — stages ашигласан үр дүн
 
 `stages`-тэй хувилбар (`script-stages.js`, 5→30→100→0) нь ачааллын ерөнхий хандлагыг ажиглах зорилгоор хийгдсэн бөгөөд дээрх хүснэгтийн тоон утгуудыг тусдаа ажиллуулалтын гаралтын файлуудаас авсан.
 
